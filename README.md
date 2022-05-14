@@ -9,6 +9,12 @@ Generate 6 random numbers for lotto with Js
 * Jquery v3.5.1
 * Jquery.easing.min.js
 
+# Documentation
+* You can add any number from 1 to 6, you can´t exceed this number.
+`var ballsNumber = 6;`
+
+* If you want to remove this limitation, just remove the if statement `line 72`.
+`if( ballsNumber > 6){`
 ## Contributing
 
 1. Fork it!
